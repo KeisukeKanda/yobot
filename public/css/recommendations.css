@@ -1,0 +1,118 @@
+.main{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+
+.main-container{
+    width: 100%;
+}
+
+.box{
+    width:100%;
+}
+
+@media screen and (min-width: 600px) {
+    .box {
+        width:80%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+.recommendation {
+    width: 90vw;
+    height: 55vh;
+    position: relative;
+    margin-bottom: 1.0vw;
+}
+
+
+.recommendation-img {
+    display: inline-block;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+    border: solid #5c5c5c 0.18rem;
+    border-radius: 20px 20px 0 0;
+    border-bottom: none;
+}
+
+.img {
+    width: 60%;
+    height:30vh;
+    text-align: center;
+}
+
+.contents {
+    border: solid #5c5c5c 0.18rem;
+    border-top: solid #5c5c5c 0.05rem;
+    border-bottom: dotted #5c5c5c 0.05rem;
+}
+
+.recommendation-title {
+    margin-top: 1vh;
+    margin-left: 2vw;
+}
+
+.recommendation-content {
+    margin-left: 2vw;
+    margin-bottom: 1vh;
+}
+
+.recommendation_action {
+    display: flex;
+    justify-content: space-between;
+    border: solid #5c5c5c 0.18rem;
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+}
+
+.recommendation_done {
+    margin-left: 3vw;
+    margin-top: 1vh;
+    font-size: 1.2rem;
+    margin-bottom:1vh;
+}
+
+.recommendation_go {
+    margin-right: 3vw;
+    margin-top: 1vh;
+    margin-bottom:1vh;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 600px) {
+    .recommendation {
+        width:90vw;
+    }
+    
+    .img {
+        width: 50%;
+        height:30vh;
+        text-align: center;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1025px) {
+    .recommendation {
+        width: 40vw;
+        height: 55vh;
+        margin: 2vw;
+        position: relative;
+    }
+    
+    .img {
+        width: 45%;
+        height:30vh;
+        text-align: center;
+    }
+}

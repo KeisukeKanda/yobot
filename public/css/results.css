@@ -1,0 +1,47 @@
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main {
+    width: 100%;
+    margin:0 auto;
+}
+
+.done_date {
+    background-color: #E6F1FE;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.date {
+    padding:1.5vh 0 1.5vh 0;
+}
+
+.result_img {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.img {
+    width: 100%;
+}
+
+.result_comment {
+    margin-top: 3vh;
+}
+
+.comment_frame {
+    width: 100%;
+    border: solid #5c5c5c 0.18rem;
+}
+
+.comment {
+    padding:0.5rem;
+}
+
+.detail_button {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 3vh;
+}
