@@ -50,6 +50,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
+        
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "if test -f 'storage/oauth-public.key'; then @php artisan package:discover --ansi; fi"
@@ -67,6 +68,6 @@
             "@php artisan optimize",
             "@php artisan migrate --force",
             "@php artisan passport:install --force"
-        ],
+        ]
     }
 }
