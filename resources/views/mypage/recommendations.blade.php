@@ -8,7 +8,7 @@
     </div>
     <div class="main">
         <div class="main_container">
-            <h3>{{ Auth::user()->name }}さんに今年オススメのもの</h3>
+            <h3>{{ Auth::user()->name }}さんに今年度オススメのもの</h3>
             <div class="box">
                 @if (count($items) > 0)
                     @foreach ($items as $item)
