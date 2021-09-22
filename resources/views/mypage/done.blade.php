@@ -56,7 +56,7 @@
                         <div>{{ $result2->done_date }}</div>
                     </td>
                     <td class="table-text">
-                        <div>{{ $result1->result_comment }}</div>
+                        <div>{{ $result2->result_comment }}</div>
                     </td>
                     <td>
                         <a href="{{ url('mypage/results/'.$result2->id) }}" class="btn btn-primary">結果</a>
@@ -82,7 +82,7 @@
                         <div>{{ $result3->done_date }}</div>
                     </td>
                     <td class="table-text">
-                        <div>{{ $result1->result_comment }}</div>
+                        <div>{{ $result3->result_comment }}</div>
                     </td>
                     <td>
                         <a href="{{ url('mypage/results/'.$result3->id) }}" class="btn btn-primary">結果</a>
@@ -108,7 +108,7 @@
                         <div>{{ $result4->done_date }}</div>
                     </td>
                     <td class="table-text">
-                        <div>{{ $result1->result_comment }}</div>
+                        <div>{{ $result4->result_comment }}</div>
                     </td>
                     <td>
                         <a href="{{ url('mypage/results/'.$result4->id) }}" class="btn btn-primary">結果</a>
@@ -134,7 +134,7 @@
                         <div>{{ $result5->done_date }}</div>
                     </td>
                     <td class="table-text">
-                        <div>{{ $result1->result_comment }}</div>
+                        <div>{{ $result5->result_comment }}</div>
                     </td>
                     <td>
                         <a href="{{ url('mypage/results/'.$result5->id) }}" class="btn btn-primary">結果</a>
@@ -160,7 +160,7 @@
                         <div>{{ $result6->done_date }}</div>
                     </td>
                     <td class="table-text">
-                        <div>{{ $result1->result_comment }}</div>
+                        <div>{{ $result6->result_comment }}</div>
                     </td>
                     <td>
                         <a href="{{ url('mypage/results/'.$result6->id) }}" class="btn btn-primary">結果</a>
@@ -186,7 +186,7 @@
                         <div>{{ $result7->done_date }}</div>
                     </td>
                     <td class="table-text">
-                        <div>{{ $result1->result_comment }}</div>
+                        <div>{{ $result7->result_comment }}</div>
                     </td>
                     <td>
                         <a href="{{ url('mypage/results/'.$result7->id) }}" class="btn btn-primary">結果</a>
@@ -212,7 +212,7 @@
                         <div>{{ $result8->done_date }}</div>
                     </td>
                     <td class="table-text">
-                        <div>{{ $result1->result_comment }}</div>
+                        <div>{{ $result8->result_comment }}</div>
                     </td>
                     <td>
                         <a href="{{ url('mypage/results/'.$result8->id) }}" class="btn btn-primary">結果</a>

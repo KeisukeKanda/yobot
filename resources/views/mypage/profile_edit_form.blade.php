@@ -13,7 +13,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-8">
                         <div class="card">
-                            <div class="card-header">{{ __('プロフィール') }}</div>
+                            <div class="card-header">{{ __('プロフィール　　登録するとマイページで今年度のオススメが表示されます') }}</div>
             
                             <div class="card-body">
                                 <form method="POST" action="{{ route('mypage.edit-profile') }}">
@@ -119,6 +119,8 @@
                                             </button>
                                         </div>
                                     </div>
+                        
+                                    
                                 </form>
                             </div>
                         </div>

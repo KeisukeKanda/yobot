@@ -16,4 +16,8 @@ class RecommendationsController extends Controller
             'items' => $items
         ]);
     }
+    
+    public function showPrimaryPrevention() {
+        return view('primary_prevention');
+    }
 }

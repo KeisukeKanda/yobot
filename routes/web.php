@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 * Landing pageを表示(recommendationss.blade.php)
 */
 Route::get('/', 'RecommendationsController@showRecommendations');
+Route::get('primary_prevention', 'RecommendationsController@showPrimaryPrevention');
 
 Route::prefix('mypage')
     ->namespace('MyPage')
