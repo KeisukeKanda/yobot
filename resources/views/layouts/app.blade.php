@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,18 +10,21 @@
 
     <title>Yobot</title>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/all.css') }}" rel="stylesheet">
-    
+    <link href="{{ asset('css/footer.css') }}" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
 </head>
+
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
@@ -42,65 +46,61 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         @guest
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
-                            @endif
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        </li>
+                        @if (Route::has('register'))
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                        </li>
+                        @endif
                         @else
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }} <span class="caret"></span>
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                {{ Auth::user()->name }} <span class="caret"></span>
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <!--ログアウト-->
+                                <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                    {{ __('ログアウト') }}
                                 </a>
 
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <!--ログアウト-->
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    @csrf
+                                </form>
 
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
-                                    
-                                    <!--プロフィール-->
-                                    <a class="dropdown-item" href="{{ route('mypage.edit-profile') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('edit-profile').submit();">
-                                        {{ __('プロフィール') }}
-                                    </a>
+                                <!--プロフィール-->
+                                <a class="dropdown-item" href="{{ route('mypage.profile') }}" onclick="event.preventDefault();
+                                                     document.getElementById('profile').submit();">
+                                    {{ __('プロフィール') }}
+                                </a>
 
-                                    <form id="edit-profile" action="{{ route('mypage.edit-profile') }}" method="GET">
-                                        @csrf
-                                    </form>
-                                    
-                                    <!--マイページ-->
-                                    <a class="dropdown-item" href="{{ route('mypage') }}"
-                                       onclick="event.preventDefault();
+                                <form id="profile" action="{{ route('mypage.profile') }}" method="GET" style="display: none;">
+                                    @csrf
+                                </form>
+
+                                <!--マイページ-->
+                                <a class="dropdown-item" href="{{ route('mypage') }}" onclick="event.preventDefault();
                                                      document.getElementById('mypage').submit();">
-                                        {{ __('マイページ') }}
-                                    </a>
-                                    <form id="mypage" action="{{ route('mypage') }}" method="GET">
-                                        @csrf
-                                    </form>
-                                    
-                                    <!--マイ記録-->
-                                    <a class="dropdown-item" href="{{ route('mypage.done') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('mypage.done').submit();">
-                                        {{ __('マイ記録') }}
-                                    </a>
+                                    {{ __('マイページ') }}
+                                </a>
+                                <form id="mypage" action="{{ route('mypage') }}" method="GET" style="display: none;">
+                                    @csrf
+                                </form>
 
-                                    <form id="mypage.done" action="{{ route('mypage.done') }}" method="GET">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li>
+                                <!--マイ記録-->
+                                <a class="dropdown-item" href="{{ route('mypage.done') }}" onclick="event.preventDefault();
+                                                     document.getElementById('mypage.done').submit();">
+                                    {{ __('マイ記録') }}
+                                </a>
+
+                                <form id="mypage.done" action="{{ route('mypage.done') }}" method="GET" style="display: none;">
+                                    @csrf
+                                </form>
+                            </div>
+                        </li>
                         @endguest
                     </ul>
                 </div>
@@ -110,6 +110,32 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+        <footer>
+            <div class="footer_wrap">
+                <div class="footer_main">
+                    <div class="home">
+                        <a href="{{ url('/') }}" class="footer_link">
+                            <i class="fas fa-home fa-2x icon_color"></i>
+                            <div>HOME</div>
+                        </a>
+                    </div>
+                    <div class="mypage">
+                        <a href="{{ route('mypage') }}" class="footer_link">
+                            <i class="fas fa-user fa-2x icon_color"></i>
+                            <div>マイページ</div>
+                        </a>
+                    </div>
+                    <div class="my_record">
+                        <a href="{{ route('mypage.done') }}" class="footer_link">
+                            <i class="fas fa-file-medical fa-2x icon_color"></i>
+                            <div>マイ記録</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
+
 </html>

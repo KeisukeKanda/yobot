@@ -11,7 +11,7 @@
 
 .clinic_up {
     display: flex;
-    justify-content:end;
+    justify-content:space-between;
     margin-bottom: 2vh;
 }
 
@@ -22,12 +22,12 @@
 
 .clinic_name {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
 }
 
 .clinic_up_right {
     padding:0.5rem;
-    width:25%;
+    width:35%;
     height:100px;
 }
 
@@ -108,10 +108,39 @@
 }
 
 @media screen and (min-width: 600px) {
+    .top {
+        width:90%;
+        margin:0 auto;
+        border: solid #5c5c5c 0.18rem;
+        border-radius: 20px 20px 20px 20px;
+        margin-bottom: 5vh;
+    }
+
     .clinic_up {
         display: flex;
-        justify-content:space-around;
+        justify-content:space-between;
         margin-bottom: 3vh;
+    }
+
+    .clinic_up_left {
+        padding:1.0rem;
+        max-width: 70%;
+    }
+
+    .clinic_name {
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+
+    .clinic_up_right {
+        padding:0.5rem;
+        width:35vw;
+        height:20vh;
+    }
+
+    .review {
+        width:90%;
+        margin: 0 auto;
     }
 }
 
@@ -120,33 +149,33 @@
         width:65%;
         margin: 0 auto;
     }
-    
+
     .main {
         width:100%;
         margin-bottom: 8vh;
     }
-    
+
     .clinic_up {
         display: flex;
-        justify-content:space-around;
+        justify-content:space-between;
         margin-bottom: 4vh;
     }
-    
+
     .clinic_up_left {
-        padding:1.0rem;
+        padding:1.5rem;
         max-width: 70%;
     }
-    
+
     .clinic_up_right {
         padding:1.0rem;
-        width:25%;
-        height:140px;
+        width:30vw;
+        height:35vh;
     }
-    
+
     .clinic_down {
         margin-bottom: 5vh;
     }
-    
+
     .table_frame {
         width:80%;
         margin:0 auto;

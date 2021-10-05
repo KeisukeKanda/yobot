@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="clinic_up_right">
-                <div class="clinic_image">{{ $institution->institution_img }}</div>
+                <div class="clinic_image"><img src="/institutions_upload/{{ $institution->institution_img }}" class="clinic_image"></div>
             </div>
         </div>
         <div class="clinic_down">
@@ -52,32 +52,32 @@
             </div>
         </div>
     </div>
-    
+
     <div class="review">
         <h3> {{ $institution->name }}への口コミ</h3>
         @if (count($reviews) === 0)
-            <div class="no_contribution">口コミの投稿はありません</div>
+        <div class="no_contribution">口コミの投稿はありません</div>
         @endif
-        
+
         @if (count($reviews) > 0)
-            @foreach ($reviews as $review)
-                <div class="review_box">
-                    <div class="contribution_user_name">{{ Auth::user()->name }}さんの投稿</div>
-                    @if ($review->review_star === 1) 
-                    <div class="review_star">★</div>
-                    @elseif  ($review->review_star === 2) 
-                    <div class="review_star">★★</div>
-                    @elseif  ($review->review_star === 3) 
-                    <div class="review_star">★★★</div>
-                    @elseif  ($review->review_star === 4) 
-                    <div class="review_star">★★★★</div>
-                    @elseif  ($review->review_star === 5) 
-                    <div class="review_star">★★★★★</div>
-                    @endif
-                    <div class="review_date">{{ $review->created_at }}にレビュー済み</div>
-                    <div class="contribution_contents">{{ $review->review }}</div>
-                </div>
-            @endforeach
+        @foreach ($reviews as $review)
+        <div class="review_box">
+            <div class="contribution_user_name">{{ Auth::user()->name }}さんの投稿</div>
+            @if ($review->review_star === 1)
+            <div class="review_star">★</div>
+            @elseif ($review->review_star === 2)
+            <div class="review_star">★★</div>
+            @elseif ($review->review_star === 3)
+            <div class="review_star">★★★</div>
+            @elseif ($review->review_star === 4)
+            <div class="review_star">★★★★</div>
+            @elseif ($review->review_star === 5)
+            <div class="review_star">★★★★★</div>
+            @endif
+            <div class="review_date">{{ $review->created_at }}にレビュー済み</div>
+            <div class="contribution_contents">{{ $review->review }}</div>
+        </div>
+        @endforeach
         @endif
     </div>
     <div class="button_area">

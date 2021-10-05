@@ -33,6 +33,20 @@
     margin: 3vh auto;
 }
 
+@media screen and (min-width: 730px) {
+    .main {
+        width: 92%;
+        margin: 3vh auto;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .main {
+        width: 60%;
+        margin: 5vh auto;
+    }
+}
+
 .result_record {
     margin-top: 3vh;
 }

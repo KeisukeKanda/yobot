@@ -16,7 +16,9 @@
                 </div>
             </div>
             <div class="clinic_up_right">
-                <div class="clinic_image">{{ $institution->institution_img }}</div>
+                <div class="clinic_image">
+                    <div class="clinic_image"><img src="/institutions_upload/{{ $institution->institution_img }}" class="clinic_image"></div>
+                </div>
             </div>
         </div>
         <div class="clinic_down">
@@ -60,5 +62,5 @@
         <div class="back"><a class="btn btn-primary" href="{{ url('/mypage/recommendation_detail/'.$item) }}">戻る</a></div>
     </div>
 </div>
-    
+
 @endsection

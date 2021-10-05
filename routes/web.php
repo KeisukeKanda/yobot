@@ -7,18 +7,34 @@ use Illuminate\Http\Request;
 */
 Route::get('/', 'RecommendationsController@showRecommendations');
 Route::get('primary_prevention', 'RecommendationsController@showPrimaryPrevention');
+Route::get('primary_prevention/food', 'RecommendationsController@showFood');
+Route::get('primary_prevention/exercise', 'RecommendationsController@showExercise');
+Route::get('primary_prevention/sleep', 'RecommendationsController@showSleep');
+Route::get('primary_prevention/smoking', 'RecommendationsController@showSmoking');
+Route::get('primary_prevention/drinking', 'RecommendationsController@showDrinking');
+Route::get('primary_prevention/vaccination', 'RecommendationsController@showVacctination');
+Route::get('secondary_prevention', 'RecommendationsController@showSecondaryPrevention');
+Route::get('secondary_prevention/kenshin', 'RecommendationsController@showKenshin');
+Route::get('secondary_prevention/cervical_cancer', 'RecommendationsController@showCervicalCancer');
+Route::get('secondary_prevention/breast_cancer', 'RecommendationsController@showBreastCancer');
+Route::get('secondary_prevention/lung_cancer', 'RecommendationsController@showLungCancer');
+Route::get('secondary_prevention/gastric_cancer', 'RecommendationsController@showGastricCancer');
+Route::get('secondary_prevention/colon_cancer', 'RecommendationsController@showColonCancer');
+Route::get('secondary_prevention/bone', 'RecommendationsController@showBone');
 
 Route::prefix('mypage')
     ->namespace('MyPage')
     ->middleware('auth')
     ->group(function (){
+        //プロフィール表示
+        Route::get('profile', 'ProfileController@showProfile')->name('mypage.profile');
         //プロフィール編集
         Route::get('edit-profile', 'ProfileController@showProfileEditForm')->name('mypage.edit-profile');
         Route::post('edit-profile', 'ProfileController@editProfile')->name('mypage.edit-profile');
         //マイページ
         Route::get('/', 'RecommendationsController@showRecommendations')->name('mypage');
         Route::get('recommendation_detail/{item}', 'RecommendationsController@showRecommendationsDetail');
-        
+
         Route::get('institutions/{item}', 'InstitutionsController@showInstitutions');
         //口コミ画面の表示
         Route::get('institutions/{instituion}/review/{item}', 'InstitutionsController@showInstitutionDetail')->name('mypage.institution');
@@ -58,7 +74,7 @@ Route::get('/',         function () { return redirect('/admin/home'); });
 Route::get('login',     'Admin\LoginController@showLoginForm')->name('admin.login');
 Route::post('login',    'Admin\LoginController@login');
 });
- 
+
 /*
 |--------------------------------------------------------------------------
 | 4) Admin ログイン後
@@ -69,19 +85,19 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth:admin'], function() {
         Route::get('home',      'Admin\HomeController@index')->name('admin.home');
         // ダッシュボード表示(items.blade.php)
         Route::get('index', 'Admin\ItemsController@index')->name('admin');
-        // 新「item」を追加 
+        // 新「item」を追加
         Route::post('items', 'Admin\ItemsController@store');
         // itemの更新画面
         Route::post('items_edit/{items}','Admin\ItemsController@edit')->name('admin.item');
         // itemの更新処理
         Route::post('items/update', 'Admin\ItemsController@update');
-        //itemを削除 
+        //itemを削除
         Route::delete('item/{item}','Admin\ItemsController@destroy');
-        
+
         //Excel/CSVの登録（institutionsテーブルへ）
         Route::get('/institution', 'Admin\InstitutionsController@showInstitutionDataStoreForm')->name('institution');
         Route::post('/import', 'Admin\InstitutionsController@import')->name('import');
-        
+
         //Excel/CSVの登録（available_institutionsテーブルへ）
         Route::post('/import/available', 'Admin\InstitutionsController@importAvailable')->name('import.available');
 });
@@ -90,3 +106,11 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth:admin'], function() {
 
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

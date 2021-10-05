@@ -8,6 +8,20 @@
     margin:0 auto;
 }
 
+@media screen and (min-width: 730px) {
+    .main {
+        width: 80%;
+        margin: 3vh auto;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .main {
+        width: 60%;
+        margin: 5vh auto;
+    }
+}
+
 .done_date {
     background-color: #E6F1FE;
     text-align: center;

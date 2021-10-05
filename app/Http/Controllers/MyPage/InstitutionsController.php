@@ -20,10 +20,10 @@ class InstitutionsController extends Controller
         $address1 = Auth::user()->address1; //埼玉県
         $address2 = Auth::user()->address2; //蕨市
         $address = $address1 . $address2; //埼玉県蕨市
-        
+
         // userのaddressから受診可能自治体をavailable_institutionsテーブルから取得
         $availables = Available_Institution::where('user_address', $address)->pluck('institution_address'); //["蕨市","戸田市"]
-        
+
         // item_idによって、行うことができる医療機関を絞って表示
         if ($item == 1) {
             // 受診可能自治体に該当する医療機関をinstitutionsテーブルから取得
@@ -74,9 +74,9 @@ class InstitutionsController extends Controller
                 'institutions' => $institutions,
                 'item' => $item
                 ]);
-        } 
+        }
     }
-    
+
     //医療機関詳細（口コミ表示画面表示）
     public function showInstitutionDetail($institution, $item){
         $institutions = Institution::find($institution);
@@ -87,7 +87,7 @@ class InstitutionsController extends Controller
             'item' => $item
         ]);
     }
-    
+
     //口コミ投稿画面表示
     public function showInstitutionReviewForm($institution, $item) {
         $institutions = Institution::find($institution);
@@ -96,7 +96,7 @@ class InstitutionsController extends Controller
             'item' => $item,
         ]);
     }
-    
+
     //口コミ投稿処理
     public function reviewInstitution($institution, $item, Request $request) {
         // //バリデーション
@@ -112,17 +112,16 @@ class InstitutionsController extends Controller
         //             ->withInput()
         //             ->withErrors($validator);
         // }
-        
+
         // Eloquent モデル
         $reviews = new Review;
-        $reviews->user_id =  $request->user()->id; 
+        $reviews->user_id =  $request->user()->id;
         $reviews->institution_id =  $request->institution_id;
         $reviews->review_star = $request->review_star;
         $reviews->review = $request->review;
-        $reviews->save();   //「/」ルートにリダイレクト 
+        $reviews->save();   //「/」ルートにリダイレクト
         return redirect(route('mypage.institution', [$institution, $item]));
-    
-    }
-    
-}
 
+    }
+
+}

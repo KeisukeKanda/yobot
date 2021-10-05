@@ -1,0 +1,105 @@
+.wrap {
+  width: 90%;
+  margin:0 auto;
+}
+
+.top_container {
+  width: 100%;
+}
+
+.top {
+  width: 100%;
+}
+
+.item_img {
+  width:100%;
+}
+
+.img {
+  width: 100%;
+}
+
+p {
+  text-align: center;
+}
+
+.main_container {
+  margin: 6vh auto;
+}
+
+.main {
+  display:flex;
+  overflow-x:scroll;
+}
+
+.box {
+  border: 0.1rem solid #2574b6;
+  border-image: linear-gradient(25deg, #2574b6, #7c84a9, #b1959c, #dea68d);
+  border-image-slice: 1;
+}
+
+.title {
+  width:100%;
+  padding:2vw;
+  background-image: linear-gradient(25deg, #00677a, #307fa0, #5097c8, #6eb0f1);
+  color:white;
+}
+
+.food_img {
+  width: 60vw;
+  height: 26vh;
+  padding: 2vw;
+}
+
+@media screen and (min-width: 600px) {
+  .title {
+    width:100%;
+    padding:2vw;
+    font-size: 1.5rem;
+  }
+
+  .food_img {
+    width: 40vw;
+    height: 23vh;
+    padding: 2vw;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .food_img {
+    width: 30vw;
+    height: 45vh;
+    padding: 2vw;
+  }
+}
+
+.contents {
+  padding: 2vw;
+}
+
+.explanation {
+  margin-top:3vh;
+  margin-bottom: 5vh;
+  border: 0.1rem solid #5c5c5c;
+  padding: 2vw;
+}
+
+.attention {
+  padding:2vw;
+  border: 0.1rem solid #5c5c5c;
+  border-radius: 20px;
+  margin:0 auto;
+  margin-top:3vh;
+}
+
+
+
+h5 {
+  text-align: center;
+  color: #3490DC;
+  margin-bottom: 2vh;
+}
+
+.back {
+  text-align: center;
+}
