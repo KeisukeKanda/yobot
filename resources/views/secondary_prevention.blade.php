@@ -21,7 +21,7 @@
   <div class="main">
     <div class="primary_prevention">
       <a href="secondary_prevention/kenshin" class="prevention_link">
-        <div class="item_img"><img src="upload/22015770.jpg" class="img"></div>
+        <div class="item_img"><img src="{{ asset('/upload/22015770.jpg') }}" class="img"></div>
         <div class="prevention_title">
           <p>定期健診</p>
         </div>
@@ -29,7 +29,7 @@
     </div>
     <div class="primary_prevention">
       <a href="secondary_prevention/cervical_cancer" class="prevention_link">
-        <div class="item_img"><img src="upload/648023.jpg" class="img"></div>
+        <div class="item_img"><img src="{{ asset('/upload/648023.jpg') }}" class="img"></div>
         <div class="prevention_title">
           <p>子宮頸がん検診</p>
         </div>
@@ -39,7 +39,7 @@
   <div class="main">
     <div class="primary_prevention">
       <a href="secondary_prevention/breast_cancer" class="prevention_link">
-        <div class="item_img"><img src="upload/427788.jpg" class="img"></div>
+        <div class="item_img"><img src="{{ asset('/upload/427788.jpg') }}" class="img"></div>
         <div class="prevention_title">
           <p>乳がん検診</p>
         </div>
@@ -47,7 +47,7 @@
     </div>
     <div class="primary_prevention">
       <a href="secondary_prevention/lung_cancer" class="prevention_link">
-        <div class="item_img"><img src="upload/2451393.jpg" class="img"></div>
+        <div class="item_img"><img src="{{ asset('/upload/2451393.jpg') }}" class="img"></div>
         <div class="prevention_title">
           <p>肺がん検診</p>
         </div>
@@ -57,7 +57,7 @@
   <div class="main">
     <div class="primary_prevention">
       <a href="secondary_prevention/gastric_cancer" class="prevention_link">
-        <div class="item_img"><img src="upload/647967.jpg" class="img"></div>
+        <div class="item_img"><img src="{{ asset('/upload/647967.jpg') }}" class="img"></div>
         <div class="prevention_title">
           <p>胃がん検診</p>
         </div>
@@ -65,7 +65,7 @@
     </div>
     <div class="primary_prevention">
       <a href="secondary_prevention/colon_cancer" class="prevention_link">
-        <div class="item_img"><img src="upload/106814.jpg" class="img"></div>
+        <div class="item_img"><img src="{{ asset('/upload/106814.jpg') }}" class="img"></div>
         <div class="prevention_title">
           <p>大腸がん検診</p>
         </div>
@@ -75,7 +75,7 @@
   <div class="main">
     <div class="primary_prevention">
       <a href="secondary_prevention/bone" class="prevention_link">
-        <div class="item_img"><img src="upload/846548.jpg" class="img"></div>
+        <div class="item_img"><img src="{{ asset('/upload/846548.jpg') }}" class="img"></div>
         <div class="prevention_title">
           <p>骨密度検査</p>
         </div>

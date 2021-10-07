@@ -7,7 +7,7 @@
 <div class="wrap">
   <div class="top_container">
     <div class="top">
-      <div class="item_img"><img src="/upload/sky-1246033_1920.jpg" class="img"></div>
+      <div class="item_img"><img src="{{ asset('/upload/sky-1246033_1920.jpg') }}" class="img"></div>
     </div>
   </div>
 
@@ -27,7 +27,7 @@
     <div class="main">
       <div class="box">
         <div class="item_image">
-          <img src="/upload/jiyeon-park-OshG1lLSNa4-unsplash.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/jiyeon-park-OshG1lLSNa4-unsplash.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">睡眠時間は人それぞれ</div>
@@ -39,7 +39,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/jordan-merrick-6cY1xBGn9ZI-unsplash.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/jordan-merrick-6cY1xBGn9ZI-unsplash.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">入眠前は刺激物を避ける</div>
@@ -51,7 +51,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/sammy-williams-DIBwWsoshGE-unsplash.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/sammy-williams-DIBwWsoshGE-unsplash.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">眠たくなってから床に就く</div>
@@ -63,7 +63,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/bruce-mars-wBuPCQiweuA-unsplash.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/bruce-mars-wBuPCQiweuA-unsplash.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">同じ時刻に毎日起床</div>
@@ -75,7 +75,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/lucas-ludwig-eOov7MDQzAk-unsplash.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/lucas-ludwig-eOov7MDQzAk-unsplash.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">光の利用で良い睡眠</div>
@@ -99,7 +99,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/iStock-612742196-1.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/iStock-612742196-1.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">昼寝は15時前の20〜30分</div>
@@ -111,7 +111,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/nezake.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/nezake.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">寝酒は不眠のもと</div>
@@ -123,7 +123,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/nemuke.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/nemuke.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">日中の眠気が強い時は要注意</div>

@@ -1,7 +1,6 @@
 .firstview_text {
-    position: absolute;
-    top: 13%;
-    left: 30%;
+    text-align: center;
+    padding-top: 3vh;
 }
 
 .firstview_phrase {
@@ -12,18 +11,17 @@
 }
 
 @media screen and (min-width: 600px) {
-    .firstview_text {
+    /* .firstview_text {
         position: absolute;
         top: 13%;
         left: 31%;
-    }
+    } */
 }
 
 @media screen and (min-width: 1025px) {
     .firstview_text {
-        position: absolute;
-        top: 19%;
-        left: 35%;
+        text-align: center;
+        padding-top: 7vh;
     }
 
     .firstview_phrase {
@@ -40,22 +38,22 @@
 
 @keyframes textcolor {
   0% {
-    color: #2c3e50;
-  }
-  20% {
-    color: #8e44ad;
-  }
-  40% {
-    color: #c0392b;
-  }
-  60% {
-    color: #d35400;
-  }
-  80% {
     color: #2980b9;
   }
+  20% {
+    color: #4895e8;
+  }
+  40% {
+    color: #2169B2;
+  }
+  60% {
+    color: #7791C3;
+  }
+  80% {
+    color: #50c3d7;
+  }
   100% {
-    color: #2c3e50;
+    color: #57DDBD;
   }
 }
 

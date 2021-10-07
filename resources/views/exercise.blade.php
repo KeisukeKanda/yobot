@@ -7,7 +7,7 @@
 <div class="wrap">
   <div class="top_container">
     <div class="top">
-      <div class="item_img"><img src="/upload/woman-1822459_1920.jpg" class="img"></div>
+      <div class="item_img"><img src="{{ asset('/upload/woman-1822459_1920.jpg') }}" class="img"></div>
     </div>
   </div>
 
@@ -24,7 +24,7 @@
     <div class="main">
       <div class="box">
         <div class="item_image">
-          <img src="/upload/football-1807520_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/football-1807520_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">有酸素性身体活動</div>
@@ -36,7 +36,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/1751231063-huge.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/1751231063-huge.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">筋力向上活動</div>
@@ -48,7 +48,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/children-593313_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/children-593313_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">座位行動</div>
@@ -72,7 +72,7 @@
     <div class="main">
       <div class="box">
         <div class="item_image">
-          <img src="/upload/taiji-3033963_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/taiji-3033963_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">有酸素性身体活動①</div>
@@ -84,7 +84,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/tennis-shot-934845_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/tennis-shot-934845_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">有酸素性身体活動②</div>
@@ -96,7 +96,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/mil-tech-pharma-ltd-DauroWovTcM-unsplash.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/mil-tech-pharma-ltd-DauroWovTcM-unsplash.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">筋力向上活動</div>
@@ -108,7 +108,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/trail-running-1245982_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/trail-running-1245982_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">有酸素性身体活動③</div>
@@ -120,7 +120,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/entrepreneur-593371_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/entrepreneur-593371_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">座位行動</div>
@@ -143,7 +143,7 @@
     <div class="main">
       <div class="box">
         <div class="item_image">
-          <img src="/upload/shutterstock_718879159.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/shutterstock_718879159.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">有酸素性身体活動①</div>
@@ -155,7 +155,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/shutterstock_283994948.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/shutterstock_283994948.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">有酸素性身体活動②</div>
@@ -167,7 +167,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/shutterstock_64356301.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/shutterstock_64356301.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">筋力向上活動</div>
@@ -179,7 +179,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/shutterstock_674449108.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/shutterstock_674449108.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">パルチコンポーネント身体活動</div>
@@ -191,7 +191,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/trail-running-1245982_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/trail-running-1245982_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">有酸素性身体活動③</div>
@@ -203,7 +203,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/mariia-chalaya-aODtyhXEAjg-unsplash.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/mariia-chalaya-aODtyhXEAjg-unsplash.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">座位行動</div>
@@ -225,7 +225,7 @@
     <div class="main">
       <div class="box">
         <div class="item_image">
-          <img src="/upload/pregnant-2568395_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/pregnant-2568395_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">有酸素性身体活動</div>
@@ -237,7 +237,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/pregnant-woman-bridges.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/pregnant-woman-bridges.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">骨盤底筋トレーニング</div>
@@ -249,7 +249,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/baby-bump-3537364_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/baby-bump-3537364_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">座位行動</div>
@@ -281,7 +281,7 @@
     <div class="main">
       <div class="box">
         <div class="item_image">
-          <img src="/upload/people-2557546_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/people-2557546_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">有酸素性身体活動①</div>
@@ -293,7 +293,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/swimming-78112_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/swimming-78112_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">有酸素性身体活動②</div>
@@ -305,7 +305,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/remove-4559344_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/remove-4559344_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">筋力向上活動</div>
@@ -317,7 +317,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/model-4669520_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/model-4669520_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">パルチコンポーネント身体活動</div>
@@ -329,7 +329,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/people-2583452_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/people-2583452_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">有酸素性身体活動③</div>

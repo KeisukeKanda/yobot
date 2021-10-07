@@ -22,12 +22,12 @@ class InstitutionsController extends Controller
         $address = $address1 . $address2; //埼玉県蕨市
 
         // userのaddressから受診可能自治体をavailable_institutionsテーブルから取得
-        $availables = Available_Institution::where('user_address', $address)->pluck('institution_address'); //["蕨市","戸田市"]
+        $availables = Available_Institution::where('user_address', $address)->pluck('institution_address'); //["埼玉県蕨市","埼玉県戸田市"]
 
         // item_idによって、行うことができる医療機関を絞って表示
         if ($item == 1) {
             // 受診可能自治体に該当する医療機関をinstitutionsテーブルから取得
-            $institutions = Institution::whereIn('address', $availables)->where('health_check', "○")->get();
+            $institutions = Institution::where('address', $address)->where('health_check', "○")->get();
             return view('mypage.institutions', [
                 'institutions' => $institutions,
                 'item' => $item
@@ -45,25 +45,25 @@ class InstitutionsController extends Controller
                 'item' => $item
                 ]);
         } elseif ($item == 4) {
-            $institutions = Institution::whereIn('address', $availables)->where('lung_cancer', "○")->get();
+            $institutions = Institution::where('address', $address)->where('lung_cancer', "○")->get();
             return view('mypage.institutions', [
                 'institutions' => $institutions,
                 'item' => $item
                 ]);
         } elseif ($item == 5) {
-            $institutions = Institution::whereIn('address', $availables)->where('gc_barium', "○")->orWhere('gc_endoscopy', 1)->get();
+            $institutions = Institution::where('address', $address)->where('gc_barium', "○")->orWhere('gc_endoscopy', 1)->get();
             return view('mypage.institutions', [
                 'institutions' => $institutions,
                 'item' => $item
                 ]);
         } elseif ($item == 6) {
-            $institutions = Institution::whereIn('address', $availables)->where('colon_cancer', "○")->get();
+            $institutions = Institution::where('address', $address)->where('colon_cancer', "○")->get();
             return view('mypage.institutions', [
                 'institutions' => $institutions,
                 'item' => $item
                 ]);
         } elseif ($item == 7) {
-            $institutions = Institution::whereIn('address', $availables)->where('bone', "○")->get();
+            $institutions = Institution::where('address', $address)->where('bone', "○")->get();
             return view('mypage.institutions', [
                 'institutions' => $institutions,
                 'item' => $item

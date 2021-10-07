@@ -7,7 +7,7 @@
 <div class="wrap">
   <div class="top_container">
     <div class="top">
-      <div class="item_img"><img src="/upload/brooke-lark-jUPOXXRNdcA-unsplash.jpg" class="img"></div>
+      <div class="item_img"><img src="{{ asset('/upload/brooke-lark-jUPOXXRNdcA-unsplash.jpg') }}" class="img"></div>
     </div>
   </div>
 
@@ -27,7 +27,7 @@
     <div class="main">
       <div class="box">
         <div class="item_image">
-          <img src="/upload/paddy-fields-4689951_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/paddy-fields-4689951_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">お米は白米ではなく玄米</div>
@@ -39,7 +39,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/wesual-click-rsWZ-P9FbQ4-unsplash.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/wesual-click-rsWZ-P9FbQ4-unsplash.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">小麦は全粒粉</div>
@@ -51,7 +51,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/fish-5399709_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/fish-5399709_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">魚</div>
@@ -63,7 +63,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/salad-2756467_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/salad-2756467_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">野菜や果物</div>
@@ -75,7 +75,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/nut-3021258_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/nut-3021258_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">豆類やナッツ</div>
@@ -97,7 +97,7 @@
     <div class="main">
       <div class="box">
         <div class="item_image">
-          <img src="/upload/beef-3267625_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/beef-3267625_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">赤身肉はcarcinogenic food</div>
@@ -109,7 +109,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/sausage-4873861_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/sausage-4873861_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">加工肉はcarcinogenic food</div>
@@ -121,7 +121,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/milk-1385548_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/milk-1385548_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">牛乳や乳製品</div>
@@ -133,7 +133,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/sugar-5040276_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/sugar-5040276_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">砂糖・甘いもの</div>
@@ -145,7 +145,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/salt-1884166_1920.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/salt-1884166_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">塩分</div>

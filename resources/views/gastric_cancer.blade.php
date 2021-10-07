@@ -6,7 +6,7 @@
 <div class="wrap">
   <div class="top_container">
     <div class="top">
-      <div class="item_img"><img src="/upload/647967.jpg" class="img"></div>
+      <div class="item_img"><img src="{{ asset('/upload/647967.jpg') }}" class="img"></div>
       <div class="contents">
         <div class="item_name"><i class="fas fa-square-full"></i> 胃がん検診</div>
         <div class="item_content"><i class="far fa-calendar-alt"></i> 50歳以上の男女<br>胃X線検査：1年に1回　胃内視鏡検査：2-3年に1回</div>

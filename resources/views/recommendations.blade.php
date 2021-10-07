@@ -21,14 +21,14 @@
     <div class="main">
         <div class="primary_prevention">
             <a href="primary_prevention" class="prevention_link">
-                <div class="item_img"><img src="upload/815683.jpg" class="img"></div>
+                <div class="item_img"><img src="{{ asset('/upload/815683.jpg') }}" class="img"></div>
                 <div class="item_title">身体の中から美しく<br>健康的になる</div>
                 <div class="item_contents">一次予防</div>
             </a>
         </div>
         <div class="secondary_prevention">
             <a href="secondary_prevention" class="prevention_link">
-                <div class="item_img"><img src="upload/2571696.jpg" class="img"></div>
+                <div class="item_img"><img src="{{ asset('/upload/2571696.jpg') }}" class="img"></div>
                 <div class="item_title">病気になっても<br>早期発見・早期治療</div>
                 <div class="item_contents">二次予防</div>
             </a>

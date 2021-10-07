@@ -6,7 +6,7 @@
 <div class="wrap">
   <div class="top_container">
     <div class="top">
-      <div class="item_img"><img src="/upload/648023.jpg" class="img"></div>
+      <div class="item_img"><img src="{{ asset('/upload/648023.jpg') }}" class="img"></div>
       <div class="contents">
         <div class="item_name"><i class="fas fa-square-full"></i> 子宮頸がん検診</div>
         <div class="item_content"><i class="far fa-calendar-alt"></i> 20歳以上の女性、2年に1回</div>
