@@ -348,6 +348,6 @@
     <div>※高強度の活動:さらに呼吸が荒く速くなる程の活動</div>
   </div>
 
-  <div class="back"><a class="btn btn-primary" href="/primary_prevention">戻る</a></div>
+  <div class="back"><a class="btn btn-primary" href="{{ asset('/primary_prevention') }}">戻る</a></div>
 </div>
 @endsection

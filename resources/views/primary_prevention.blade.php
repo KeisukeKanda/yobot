@@ -75,6 +75,6 @@
         <p class="reminder_comment">プロフィールを登録して<br>あなたに今年度のオススメを表示</p>
         <div class="reminder"><a href="{{ url('mypage/edit-profile') }}" class="btn btn-primary">リマインダー設定</a></div>
     </div>
-    <div class="reminder"><a class="btn btn-primary" href="/">戻る</a></div>
+    <div class="reminder"><a class="btn btn-primary" href="{{ url('/') }}">戻る</a></div>
 </div>
 @endsection

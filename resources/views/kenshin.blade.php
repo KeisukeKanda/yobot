@@ -20,7 +20,7 @@
   <p>●75歳以上の後期高齢者医療制度加入者は各自治体で後期高齢者健康診査を行なっていますので自治体の指示に従ってください。</p>
 
   <div class="detail_button">
-    <div class="back"><a class="btn btn-primary" href="/secondary_prevention">戻る</a></div>
+    <div class="back"><a class="btn btn-primary" href="{{ asset('/secondary_prevention') }}">戻る</a></div>
   </div>
 
 </div>

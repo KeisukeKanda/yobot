@@ -136,6 +136,6 @@
 
     </div>
   </div>
-  <div class="back"><a class="btn btn-primary" href="/primary_prevention">戻る</a></div>
+  <div class="back"><a class="btn btn-primary" href="{{ asset('/primary_prevention') }}">戻る</a></div>
 </div>
 @endsection

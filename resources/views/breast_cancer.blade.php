@@ -25,7 +25,7 @@
   </div>
 
   <div class="detail_button">
-    <div class="back"><a class="btn btn-primary" href="/secondary_prevention">戻る</a></div>
+    <div class="back"><a class="btn btn-primary" href="{{ asset('/secondary_prevention') }}">戻る</a></div>
   </div>
 </div>
 @endsection

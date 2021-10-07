@@ -162,6 +162,6 @@
     <p></p>
     <p>※ただし、民族や遺伝子によってこれまでの<br>長い生活様式の中で狩猟を主な食料源にしていた人たち<br>にとっての理想の食生活は異なる可能性があります</p>
   </div>
-  <div class="back"><a class="btn btn-primary" href="/primary_prevention">戻る</a></div>
+  <div class="back"><a class="btn btn-primary" href="{{ asset('/primary_prevention') }}">戻る</a></div>
 </div>
 @endsection
