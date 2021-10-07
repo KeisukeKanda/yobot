@@ -3,7 +3,7 @@
 @extends('layouts.app')
 
 @section('content')
-
+現在開発中
 <div class="wrap">
   <div class="top_container">
     <div class="top">
