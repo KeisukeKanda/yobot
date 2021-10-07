@@ -106,6 +106,7 @@
 }
 
 .item_title {
+    color: black;
     padding: 0.5vh;
     text-align: center;
     border: solid #5c5c5c 0.18rem;
@@ -113,6 +114,7 @@
 }
 
 .item_contents {
+    color: black;
     margin: 0 auto;
     padding: 0.5vh;
     text-align: center;
@@ -120,6 +122,36 @@
     border-radius: 0 0 20px 20px;
     border-top: dashed #5c5c5c 0.18rem;
 }
+
+@media screen and (min-width: 600px) {
+    .item_title {
+        font-size: 1.0rem;
+        padding: 0.5vh;
+        text-align: center;
+        border: solid #5c5c5c 0.18rem;
+        border-bottom: none;
+    }
+
+    .item_contents {
+        font-size: 1.0rem;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .item_title {
+        font-size: 1.5rem;
+        padding: 0.5vh;
+        text-align: center;
+        border: solid #5c5c5c 0.18rem;
+        border-bottom: none;
+    }
+
+    .item_contents {
+        font-size: 1.5rem;
+    }
+}
+
+
 
 .reminder_comment {
     text-align: center;
