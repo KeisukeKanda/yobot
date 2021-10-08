@@ -103,3 +103,68 @@ h5 {
 .back {
   text-align: center;
 }
+
+.brinkman_calculator {
+  width:90vw;
+  text-align:right;
+}
+
+#calc_button {
+  margin-right:5vw;
+  margin-bottom: 1vh;
+}
+
+#brinkman_result {
+  margin-right: 5vw;
+}
+
+.brinkman_evaluation {
+  width: 90vw;
+  margin:0 auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  text-align: left;
+  background-color: #E1F5FE;
+  border-radius: 20px;
+  padding:2vw;
+}
+
+@media screen and (min-width: 600px) {
+  .brinkman_calculator {
+    width:70vw;
+    text-align:right;
+  }
+
+  #calc_button {
+    margin-right:2.5vw;
+    margin-bottom: 1vh;
+  }
+
+  #brinkman_result {
+    margin-right: 2.5vw;
+  }
+
+  .brinkman_evaluation {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .brinkman_calculator {
+    width:60vw;
+    text-align:right;
+  }
+
+  #calc_button {
+    margin-right:1.5vw;
+    margin-bottom: 1vh;
+  }
+
+  #brinkman_result {
+    margin-right: 1.5vw;
+  }
+
+  .brinkman_evaluation {
+    width: 40vw;
+  }
+}
