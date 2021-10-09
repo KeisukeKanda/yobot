@@ -94,3 +94,19 @@ a {
         margin-top: 5vh;
     }
 }
+
+.logo_img {
+    width: 25vw;
+}
+
+@media screen and (min-width: 600px) {
+    .logo_img {
+        width: 20vw;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .logo_img {
+        width: 10vw;
+    }
+}
