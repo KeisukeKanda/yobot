@@ -1,5 +1,5 @@
-@extends('layouts.app')
 <link href="{{ asset('css/recommendations_detail.css') }}" rel="stylesheet">
+@extends('layouts.app')
 
 @section('content')
 

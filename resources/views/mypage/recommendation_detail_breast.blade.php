@@ -1,5 +1,5 @@
-@extends('layouts.app')
 <link href="{{ asset('css/recommendations_detail.css') }}" rel="stylesheet">
+@extends('layouts.app')
 
 @section('content')
 
@@ -24,12 +24,12 @@
     <p>●乳房を片方ずつプラスチックの板で挟んで撮影することで、小さいしこりや石灰化を見つける検査です。乳房が圧迫されるため痛みを感じることもありますが圧迫時間は数十秒ほどです。また放射線被ばくによる健康被害はほとんどありません。</p>
     <p class="video">【解説ビデオ】</p>
     <div style="position: relative; padding-bottom: 56.25%;" class="youtube">
-      <iframe 
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-        src="https://www.youtube.com/embed/xRutVZ0egFk" 
-        frameborder="0" 
-        allow="autoplay; 
-        encrypted-media" 
+      <iframe
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        src="https://www.youtube.com/embed/xRutVZ0egFk"
+        frameborder="0"
+        allow="autoplay;
+        encrypted-media"
         allowfullscreen>
       </iframe>
     </div>

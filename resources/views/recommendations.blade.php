@@ -1,9 +1,8 @@
-<!-- resources/views/books.blade.php -->
+
 <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 
 @extends('layouts.app')
 @section('content')
-<!-- Recommendations: 推奨される項目の一覧 -->
 <div id="firstview">
     <div class="firstview_text">
         <div class="firstview_phrase">あなた史上最高の</div>
