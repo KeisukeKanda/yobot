@@ -87,7 +87,7 @@
 
       <div class="box">
         <div class="item_image">
-          <img src="/upload/bf.jpg" alt="" class="food_img">
+          <img src="{{ asset('/upload/bf.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
           <div class="title">規則正しい食事、運動習慣</div>
