@@ -145,6 +145,7 @@
 
     <div class="back"><a class="btn btn-primary" href="{{ asset('/primary_prevention') }}">戻る</a></div>
   </div>
+</div>
 
   <script>
     function buttonClick() {
