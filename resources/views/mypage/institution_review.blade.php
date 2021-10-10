@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="clinic_up_right">
-                <div class="clinic_image">{{ $institution->institution_img }}</div>
+                <div class="clinic_image"><img src="{{ asset('/institutions_upload/'.$institution->institution_img.'') }}" class="clinic_image"></div>
             </div>
         </div>
         <div class="clinic_down">
@@ -56,12 +56,12 @@
             </div>
         </div>
     </div>
-    
+
     <h3> {{ $institution->name }}への口コミ</h3>
     <div class="review_contribute_area">
         <form enctype="multipart/form-data" action="{{ url('mypage/institutions/'.$institution->id.'/store/'.$item) }}" method="POST" class="form-horizontal">
             {{ csrf_field() }}
-            
+
             <div class="evaluation">
                 <input id="star1" type="radio" name="review_star" value="5" />
                 <label for="star1"><span class="text">最高</span>★</label>
@@ -74,19 +74,19 @@
                 <input id="star5" type="radio" name="review_star" value="1" />
                 <label for="star5"><span class="text">最悪</span>★</label>
             </div>
-            
+
             <div class="review_comment">
                 <div class="comment_frame"><textarea type="text" name="review" value="" class="comment_area" style="overflow:auto;"></textarea></div>
             </div>
-            
+
             <div>
                 <input type="hidden" name="user_id" value="{{ Auth::user()->id }}">
             </div>
-            
+
             <div>
                 <input type="hidden" name="institution_id" value="{{ $institution->id }}">
             </div>
-            
+
             <div class="contribution_button">
                 <div>
                     <a class="btn btn-primary" href="{{ url('mypage/institutions/'.$institution->id.'/review/'.$item) }}">戻る</a>
@@ -97,4 +97,4 @@
             </div>
         </form>
     </div>
-@endsection
+    @endsection

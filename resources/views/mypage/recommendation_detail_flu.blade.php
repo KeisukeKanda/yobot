@@ -15,7 +15,6 @@
         <div class="detail_button">
             <div class="back"><a class="btn btn-primary" href="{{ url('/mypage/') }}">戻る</a></div>
             <div class="done"><a class="btn btn-primary" href="{{ url('/mypage/done/'.$item->id) }}">今年は実施済み</a></div>
-            <div class="go"><a class="btn btn-primary" href="{{ url('/mypage/institutions/'.$item->id) }}">予約へ進む</a></div>
         </div>
     </div>
     <h1>インフルエンザ予防接種について</h1>
