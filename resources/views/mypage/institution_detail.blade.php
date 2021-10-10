@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="clinic_up_right">
-                <div class="clinic_image"><img src="/institutions_upload/{{ $institution->institution_img }}" class="clinic_image"></div>
+                <div class="clinic_image"><img src="{{ asset('/institutions_upload/'.$institution->institution_img.'') }}" class="clinic_image"></div>
             </div>
         </div>
         <div class="clinic_down">
