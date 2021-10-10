@@ -5,6 +5,8 @@ namespace App\Http\Controllers\MyPage;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use DB;
+use App\User;
 use App\Item;
 use App\Institution;
 use App\Available_Institution;
@@ -80,7 +82,11 @@ class InstitutionsController extends Controller
     //医療機関詳細（口コミ表示画面表示）
     public function showInstitutionDetail($institution, $item){
         $institutions = Institution::find($institution);
-        $reviews = Review::where('institution_id', $institution)->get();
+        // $reviews = Review::where('institution_id', $institution)->get();
+        $reviews = DB::table('reviews')
+            ->join('users', 'reviews.user_id', '=', 'users.id')
+            ->where('institution_id', $institution)
+            ->get();
         return view('mypage.institution_detail', [
             'reviews' => $reviews,
             'institution' => $institutions,
@@ -115,7 +121,7 @@ class InstitutionsController extends Controller
 
         // Eloquent モデル
         $reviews = new Review;
-        $reviews->user_id =  $request->user()->id;
+        $reviews->user_id =  Auth::user()->id;
         $reviews->institution_id =  $request->institution_id;
         $reviews->review_star = $request->review_star;
         $reviews->review = $request->review;

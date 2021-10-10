@@ -62,7 +62,7 @@
         @if (count($reviews) > 0)
         @foreach ($reviews as $review)
         <div class="review_box">
-            <div class="contribution_user_name">{{ Auth::user()->name }}さんの投稿</div>
+            <div class="contribution_user_name">{{ $review->name }}さんの投稿</div>
             @if ($review->review_star === 1)
             <div class="review_star">★</div>
             @elseif ($review->review_star === 2)
