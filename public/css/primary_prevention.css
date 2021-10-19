@@ -225,3 +225,71 @@ h5 {
     width: 30vw;
   }
 }
+
+.drink_tbl {
+  margin:0 auto;
+}
+
+.drinking_amount_title {
+  text-align: center;
+}
+
+.drinking_kind {
+  width: 50vw;
+}
+
+.drinking_amount {
+  margin:auto 0;
+  line-height:35px;
+}
+
+.amount_counter_minus,.amount_counter_plus {
+  color: #3490DC;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.input_amount {
+  width: 10vw;
+}
+
+.drinking_calculation {
+  margin: 3vh 0 3vh 0;
+  text-align: center;
+}
+
+.drink_calculation_button {
+  color: white;
+  background-color: #3490DC;
+}
+
+.drinking_amount_result {
+  text-align: center;
+}
+
+.drinking_amount_comment {
+  margin: 3vh 0 3vh 0;
+}
+
+.audit_item {
+  margin-left: 2vw;
+}
+
+.audit_calculation {
+  text-align: center;
+  margin: 3vh 0 3vh 0;
+}
+
+.audit_calculation_button {
+  color: white;
+  background-color: #3490DC;
+}
+
+.audit_result_box {
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+.audit_comment {
+  margin: 3vh 0 3vh 0;
+}

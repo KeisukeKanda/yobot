@@ -234,7 +234,7 @@ caption {
 th {
   text-align: inherit;
   text-align: -webkit-match-parent;
-  width: 33vw;
+  /* width: 33vw; */
 }
 
 label {

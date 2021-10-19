@@ -175,63 +175,63 @@
         }
       }
       const q2 = document.getElementsByName("q2");
-      for (i = 0; i < q1.length; i++) {
+      for (i = 0; i < q2.length; i++) {
         if (q2[i].checked) {
           que2 = q2[i].value;
           break;
         }
       }
       const q3 = document.getElementsByName("q3");
-      for (i = 0; i < q1.length; i++) {
+      for (i = 0; i < q3.length; i++) {
         if (q3[i].checked) {
           que3 = q3[i].value;
           break;
         }
       }
       const q4 = document.getElementsByName("q4");
-      for (i = 0; i < q1.length; i++) {
+      for (i = 0; i < q4.length; i++) {
         if (q4[i].checked) {
           que4 = q4[i].value;
           break;
         }
       }
       const q5 = document.getElementsByName("q5");
-      for (i = 0; i < q1.length; i++) {
+      for (i = 0; i < q5.length; i++) {
         if (q5[i].checked) {
           que5 = q5[i].value;
           break;
         }
       }
       const q6 = document.getElementsByName("q6");
-      for (i = 0; i < q1.length; i++) {
+      for (i = 0; i < q6.length; i++) {
         if (q6[i].checked) {
           que6 = q6[i].value;
           break;
         }
       }
       const q7 = document.getElementsByName("q7");
-      for (i = 0; i < q1.length; i++) {
+      for (i = 0; i < q7.length; i++) {
         if (q7[i].checked) {
           que7 = q7[i].value;
           break;
         }
       }
       const q8 = document.getElementsByName("q8");
-      for (i = 0; i < q1.length; i++) {
+      for (i = 0; i < q8.length; i++) {
         if (q8[i].checked) {
           que8 = q8[i].value;
           break;
         }
       }
       const q9 = document.getElementsByName("q9");
-      for (i = 0; i < q1.length; i++) {
+      for (i = 0; i < q9.length; i++) {
         if (q9[i].checked) {
           que9 = q9[i].value;
           break;
         }
       }
       const q10 = document.getElementsByName("q10");
-      for (i = 0; i < q1.length; i++) {
+      for (i = 0; i < q10.length; i++) {
         if (q10[i].checked) {
           que10 = q10[i].value;
           break;
