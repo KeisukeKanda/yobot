@@ -6,7 +6,7 @@
 <div class="wrap">
     <div class="top_container">
         <div class="top">
-            <div class="item_img"><img src="/upload/{{$item->item_img}}" class="img"></div>
+            <div class="item_img"><img src="{{ asset('/upload/'.$item->item_img.'') }}" class="img"></div>
             <div class="contents">
                 <div class="item_name"><i class="fas fa-square-full"></i> {{ $item->item_name }}</div>
                 <div class="item_content"><i class="far fa-calendar-alt"></i> {{$item->item_content}}</div>
@@ -26,14 +26,9 @@
 
     <p class="video">【解説ビデオ】</p>
     <div style="position: relative; padding-bottom: 56.25%;" class="youtube">
-      <iframe
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-        src="https://www.youtube.com/embed/tPq_EES78Eo"
-        frameborder="0"
-        allow="autoplay;
-        encrypted-media"
-        allowfullscreen>
-      </iframe>
+        <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/tPq_EES78Eo" frameborder="0" allow="autoplay;
+        encrypted-media" allowfullscreen>
+        </iframe>
     </div>
 </div>
 
