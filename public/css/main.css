@@ -6,7 +6,7 @@
 .firstview_phrase {
     font-size: 4.5vw;
     font-weight: bold;
-    letter-spacing: 0.5vw;
+    /* letter-spacing: 0.5vw; */
     animation: textcolor infinite 20s;
     font-family: sans-serif;
     letter-spacing: 0.5rem;
@@ -29,7 +29,6 @@
     .firstview_phrase {
         font-size: 3.5vw;
         font-weight: bold;
-        letter-spacing: 0.5vw;
         animation: textcolor infinite 20s;
         letter-spacing: 1.0rem;
     }
@@ -147,7 +146,7 @@
     content:"";
     display:block;
     width:90%;
-    height:0.1px;
+    height:1px;
     background-color: #dedede;
     position:absolute;
     bottom:0;
