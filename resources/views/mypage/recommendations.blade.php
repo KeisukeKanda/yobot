@@ -17,7 +17,7 @@
             @foreach ($items as $item)
             <div class="recommendation">
                 <div class="recommendation-img">
-                    <img src="{{ asset('../upload/'.$item->item_img.'') }}" class="img">
+                    <img src="{{ asset('/upload/'.$item->item_img.'') }}" class="img">
                 </div>
                 <div class="contents">
                     <div class="recommendation-title"><i class="fas fa-square-full"></i> {{ $item->item_name }}</div>
