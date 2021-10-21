@@ -9,7 +9,7 @@
 <div class="wrap">
     <div class="top">
         <div class="item_img">
-            <img src="/upload/{{$item->item_img}}" class="img">
+            <img src="{{ asset('/upload/'.$item->item_img.'') }}" class="img">
         </div>
     </div>
 
