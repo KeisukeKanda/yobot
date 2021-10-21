@@ -6,7 +6,7 @@
 <div class="wrap">
   <div class="top_container">
     <div class="top">
-      <div class="item_img"><img src="{{ asset('/upload/22015770.jpg') }}" class="img"></div>
+      <div class="item_img"><img src="{{ asset('/upload/201996.png') }}" class="img"></div>
       <div class="contents">
         <div class="item_name"><i class="fas fa-square-full"></i> 定期健診</div>
         <div class="item_content"><i class="far fa-calendar-alt"></i> 1年に1回</div>

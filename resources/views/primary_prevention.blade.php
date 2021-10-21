@@ -19,7 +19,7 @@
     <div class="main">
         <div class="primary_prevention">
             <a href="primary_prevention/food" class="prevention_link">
-                <div class="item_img"><img src="{{ asset('/upload/2504916.jpg') }}" class="img"></div>
+                <div class="item_img"><img src="{{ asset('/upload/2504916.png') }}" class="img"></div>
                 <div class="prevention_title">
                     <p>食事</p>
                 </div>
@@ -27,7 +27,7 @@
         </div>
         <div class="primary_prevention">
             <a href="primary_prevention/exercise" class="prevention_link">
-                <div class="item_img"><img src="{{ asset('/upload/2520362.jpg') }}" class="img"></div>
+                <div class="item_img"><img src="{{ asset('/upload/2520362.png') }}" class="img"></div>
                 <div class="prevention_title">
                     <p>運動</p>
                 </div>
@@ -37,7 +37,7 @@
     <div class="main">
         <div class="primary_prevention">
             <a href="primary_prevention/sleep" class="prevention_link">
-                <div class="item_img"><img src="{{ asset('/upload/240427.jpg') }}" class="img"></div>
+                <div class="item_img"><img src="{{ asset('/upload/240427.png') }}" class="img"></div>
                 <div class="prevention_title">
                     <p>睡眠</p>
                 </div>
@@ -45,7 +45,7 @@
         </div>
         <div class="primary_prevention">
             <a href="primary_prevention/smoking" class="prevention_link">
-                <div class="item_img"><img src="{{ asset('/upload/290193.jpg') }}" class="img"></div>
+                <div class="item_img"><img src="{{ asset('/upload/290193.png') }}" class="img"></div>
                 <div class="prevention_title">
                     <p>禁煙</p>
                 </div>
@@ -55,7 +55,7 @@
     <div class="main">
         <div class="primary_prevention">
             <a href="primary_prevention/drinking" class="prevention_link">
-                <div class="item_img"><img src="{{ asset('/upload/789516.jpg') }}" class="img"></div>
+                <div class="item_img"><img src="{{ asset('/upload/789516.png') }}" class="img"></div>
                 <div class="prevention_title">
                     <p>飲酒</p>
                 </div>
@@ -63,7 +63,7 @@
         </div>
         <div class="primary_prevention">
             <a href="primary_prevention/vaccination" class="prevention_link">
-                <div class="item_img"><img src="{{ asset('/upload/2669157.jpg') }}" class="img"></div>
+                <div class="item_img"><img src="{{ asset('/upload/2669157.png') }}" class="img"></div>
                 <div class="prevention_title">
                     <p>予防接種</p>
                 </div>

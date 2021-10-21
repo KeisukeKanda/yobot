@@ -27,7 +27,7 @@
           <img src="{{ asset('/upload/football-1807520_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">有酸素性身体活動</div>
+          <div class="exercise_title">有酸素性身体活動</div>
         </div>
         <div class="item_contents">
           <div class="contents">少なくとも1日60分の中高強度の身体活動を実施する</div>
@@ -39,7 +39,7 @@
           <img src="{{ asset('/upload/1751231063-huge.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">筋力向上活動</div>
+          <div class="exercise_title">筋力向上活動</div>
         </div>
         <div class="item_contents">
           <div class="contents">少なくとも週に3日は高強度の有酸素性身体活動や筋力・骨を強化する身体活動を取り入れるべきである</div>
@@ -51,7 +51,7 @@
           <img src="{{ asset('/upload/children-593313_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">座位行動</div>
+          <div class="exercise_title">座位行動</div>
         </div>
         <div class="item_contents">
           <div class="contents">座りっぱなしで過ごす時間、特に余暇時間におけるスクリーンタイムを減らしましょう</div>
@@ -75,7 +75,7 @@
           <img src="{{ asset('/upload/taiji-3033963_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">有酸素性身体活動①</div>
+          <div class="exercise_title">有酸素性身体活動①</div>
         </div>
         <div class="item_contents">
           <div class="contents">少なくとも週に2時間半から5時間の中強度の身体活動を実施する</div>
@@ -87,7 +87,7 @@
           <img src="{{ asset('/upload/tennis-shot-934845_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">有酸素性身体活動②</div>
+          <div class="exercise_title">有酸素性身体活動②</div>
         </div>
         <div class="item_contents">
           <div class="contents">少なくとも週に1時間15分から2時間半の高強度の身体活動を実施する</div>
@@ -99,7 +99,7 @@
           <img src="{{ asset('/upload/mil-tech-pharma-ltd-DauroWovTcM-unsplash.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">筋力向上活動</div>
+          <div class="exercise_title">筋力向上活動</div>
         </div>
         <div class="item_contents">
           <div class="contents">少なくとも週に2日以上すべての主要筋群を使って中強度以上の強度で筋肉を強化する活動を行う</div>
@@ -111,7 +111,7 @@
           <img src="{{ asset('/upload/trail-running-1245982_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">有酸素性身体活動③</div>
+          <div class="exercise_title">有酸素性身体活動③</div>
         </div>
         <div class="item_contents">
           <div class="contents">さらなる健康のために週5時間以上の中強度または週2時間半以上の高強度の有酸素性の身体活動を行う</div>
@@ -123,7 +123,7 @@
           <img src="{{ asset('/upload/entrepreneur-593371_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">座位行動</div>
+          <div class="exercise_title">座位行動</div>
         </div>
         <div class="item_contents">
           <div class="contents">座りっぱなしで過ごす時間を減らし、どんな強度（軽強度を含む）でも良いので、身体活動を増やす</div>
@@ -146,7 +146,7 @@
           <img src="{{ asset('/upload/shutterstock_718879159.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">有酸素性身体活動①</div>
+          <div class="exercise_title">有酸素性身体活動①</div>
         </div>
         <div class="item_contents">
           <div class="contents">少なくとも週に2時間半から5時間の中強度の身体活動を実施する</div>
@@ -158,7 +158,7 @@
           <img src="{{ asset('/upload/shutterstock_283994948.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">有酸素性身体活動②</div>
+          <div class="exercise_title">有酸素性身体活動②</div>
         </div>
         <div class="item_contents">
           <div class="contents">少なくとも週に1時間15分から2時間半の高強度の身体活動を実施する</div>
@@ -170,7 +170,7 @@
           <img src="{{ asset('/upload/shutterstock_64356301.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">筋力向上活動</div>
+          <div class="exercise_title">筋力向上活動</div>
         </div>
         <div class="item_contents">
           <div class="contents">少なくとも週に2日以上すべての主要筋群を使って中強度以上の強度で筋肉を強化する活動を行う</div>
@@ -182,7 +182,7 @@
           <img src="{{ asset('/upload/shutterstock_674449108.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">パルチコンポーネント身体活動</div>
+          <div class="exercise_title">パルチコンポーネント身体活動</div>
         </div>
         <div class="item_contents">
           <div class="contents">中等度以上の強度で、機能的なバランスと筋力トレーニングを重視した多様な要素を含む身体活動を行う</div>
@@ -194,7 +194,7 @@
           <img src="{{ asset('/upload/trail-running-1245982_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">有酸素性身体活動③</div>
+          <div class="exercise_title">有酸素性身体活動③</div>
         </div>
         <div class="item_contents">
           <div class="contents">さらなる健康のために週5時間以上の中強度または週2時間半以上の高強度の有酸素性の身体活動を行う</div>
@@ -206,7 +206,7 @@
           <img src="{{ asset('/upload/mariia-chalaya-aODtyhXEAjg-unsplash.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">座位行動</div>
+          <div class="exercise_title">座位行動</div>
         </div>
         <div class="item_contents">
           <div class="contents">座りっぱなしで過ごす時間を減らし、どんな強度（軽強度を含む）でも良いので、身体活動を増やす</div>
@@ -228,7 +228,7 @@
           <img src="{{ asset('/upload/pregnant-2568395_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">有酸素性身体活動</div>
+          <div class="exercise_title">有酸素性身体活動</div>
         </div>
         <div class="item_contents">
           <div class="contents">少なくとも週に2時間半の中強度の有酸素性身体活動を実施する</div>
@@ -240,7 +240,7 @@
           <img src="{{ asset('/upload/pregnant-woman-bridges.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">骨盤底筋トレーニング</div>
+          <div class="exercise_title">骨盤底筋トレーニング</div>
         </div>
         <div class="item_contents">
           <div class="contents">骨盤底筋のトレーニングを日常的に行うことで、尿失禁のリスクを減らすことができます</div>
@@ -252,7 +252,7 @@
           <img src="{{ asset('/upload/baby-bump-3537364_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">座位行動</div>
+          <div class="exercise_title">座位行動</div>
         </div>
         <div class="item_contents">
           <div class="contents">座りっぱなしで過ごす時間を減らし、どんな強度（軽強度を含む）でも良いので、身体活動を増やす</div>
@@ -284,7 +284,7 @@
           <img src="{{ asset('/upload/people-2557546_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">有酸素性身体活動①</div>
+          <div class="exercise_title">有酸素性身体活動①</div>
         </div>
         <div class="item_contents">
           <div class="contents">少なくとも週に2時間半から5時間の中強度の身体活動を実施する</div>
@@ -296,7 +296,7 @@
           <img src="{{ asset('/upload/swimming-78112_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">有酸素性身体活動②</div>
+          <div class="exercise_title">有酸素性身体活動②</div>
         </div>
         <div class="item_contents">
           <div class="contents">少なくとも週に1時間15分から2時間半の高強度の身体活動を実施する</div>
@@ -308,7 +308,7 @@
           <img src="{{ asset('/upload/remove-4559344_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">筋力向上活動</div>
+          <div class="exercise_title">筋力向上活動</div>
         </div>
         <div class="item_contents">
           <div class="contents">少なくとも週に2日以上すべての主要筋群を使って中強度以上の強度で筋肉を強化する活動を行う</div>
@@ -320,7 +320,7 @@
           <img src="{{ asset('/upload/model-4669520_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">パルチコンポーネント身体活動</div>
+          <div class="exercise_title">パルチコンポーネント身体活動</div>
         </div>
         <div class="item_contents">
           <div class="contents">中等度以上の強度で、機能的なバランスと筋力トレーニングを重視した多様な要素を含む身体活動を行う</div>
@@ -332,7 +332,7 @@
           <img src="{{ asset('/upload/people-2583452_1920.jpg') }}" alt="" class="food_img">
         </div>
         <div class="item_title">
-          <div class="title">有酸素性身体活動③</div>
+          <div class="exercise_title">有酸素性身体活動③</div>
         </div>
         <div class="item_contents">
           <div class="contents">さらなる健康のために週5時間以上の中強度または週2時間半以上の高強度の有酸素性の身体活動を行う</div>
