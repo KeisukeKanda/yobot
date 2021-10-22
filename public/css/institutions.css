@@ -26,6 +26,25 @@
     font-size: 1.0rem;
 }
 
+.review_link:link, .review_link:visited {
+    color:#3490DC;
+;
+}
+
+
+.review_link:hover, .review_link:active {
+    
+    text-decoration: none;
+}
+
+.clinic_review {
+    font-weight: 600;
+}
+
+.review_icon {
+    color:darkseagreen;
+}
+
 .clinic_up_right {
     padding:0.5rem;
     width:35%;

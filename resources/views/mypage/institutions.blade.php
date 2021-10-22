@@ -12,7 +12,7 @@
                 <div class="clinic_address">
                     <div>〒{{ $institution->zipcode }}</div>
                     <div>{{ $institution->address1 }}{{ $institution->address2 }}{{ $institution->address3 }}{{ $institution->address4 }}</div>
-                    <div><a href="{{ url('mypage/institutions/'.$institution->id.'/review/'.$item) }}">口コミ</a></div>
+                    <div class="clinic_review"><a class="review_link" href="{{ url('mypage/institutions/'.$institution->id.'/review/'.$item) }}"><i class="far fa-comment-dots review_icon"></i> 口コミ</a></div>
                 </div>
             </div>
             <div class="clinic_up_right">

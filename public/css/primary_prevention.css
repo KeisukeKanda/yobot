@@ -55,7 +55,7 @@ p {
   content:"";
   display:block;
   width:90%;
-  height:0.1px;
+  height:1px;
   background-color: #dedede;
   position:absolute;
   bottom:0;
