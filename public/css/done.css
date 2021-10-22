@@ -1,10 +1,11 @@
 .wrap {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .top {
     width: 100%;
+    background-color: #fbf6f4;
 }
 
 .item_img {
@@ -29,20 +30,20 @@
 }
 
 .main {
-    width: 95%;
+    width: 85%;
     margin: 3vh auto;
 }
 
 @media screen and (min-width: 730px) {
     .main {
-        width: 92%;
+        width: 82%;
         margin: 3vh auto;
     }
 }
 
 @media screen and (min-width: 1025px) {
     .main {
-        width: 60%;
+        width: 70%;
         margin: 5vh auto;
     }
 }

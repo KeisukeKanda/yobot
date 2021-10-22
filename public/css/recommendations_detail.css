@@ -1,5 +1,5 @@
 .wrap {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -16,9 +16,10 @@
 .item_img {
     text-align: center;
     width:100%;
-    border: solid #5c5c5c 0.05rem;
+    background-color: #fbf6f4;
+    /* border: solid #5c5c5c 0.05rem;
     border-bottom: none;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 0 0; */
 }
 
 .img {
@@ -26,30 +27,44 @@
 }
 
 .contents {
-    border:solid #5c5c5c 0.05rem;
-    border-radius: 0 0 20px 20px;
+    font-size: 1.2rem;
+    margin-bottom:1.5vh;
 }
 
 .item_name {
     margin-top: 1.5vh;
     margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 .item_content {
     margin-top: 1.5vh;
-    margin-bottom:1.5vh;
     margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 .detail_button {
     display: flex;
     justify-content:space-around;
-    margin-top: 1.5vh;
+    margin-top: 2vh;
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 600px) {
-    .top_container {
-        width:80%;
+    .contents {
+        font-size: 1.5rem;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom:2.0vh;
+    }
+
+    .detail_button {
+        width: 80%;
+        margin: 0 auto;
     }
 
     .img {
@@ -58,8 +73,17 @@
 }
 
 @media screen and (min-width: 1025px) {
-    .top_container {
-        width: 60%;
+    .contents {
+        font-size: 1.5rem;
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom:5.0vh;
+    }
+
+    .detail_button {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 5vh;
     }
 
     .img {

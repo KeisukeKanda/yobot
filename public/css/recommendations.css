@@ -102,9 +102,7 @@
     object-fit: cover;
     text-align: center;
     background-color: #fbf6f4;
-    /* border: solid #5c5c5c 0.18rem; */
     border-radius: 20px 20px 0 0;
-    /* border-bottom: none; */
 }
 
 .img {
