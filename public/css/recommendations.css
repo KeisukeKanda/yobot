@@ -8,6 +8,8 @@
     font-weight: 900;
     letter-spacing: 0.5rem;
     animation: textcolor infinite 20s;
+    font-family: sans-serif;
+    letter-spacing: 0.5rem;
 }
 
 @media screen and (min-width: 1025px) {
@@ -18,7 +20,6 @@
 
     .firstview_phrase {
         font-size: 3.5vw;
-        font-weight: 900;
         animation: textcolor infinite 20s;
         letter-spacing: 1.0rem;
     }
