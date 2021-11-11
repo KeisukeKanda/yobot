@@ -47,13 +47,13 @@ class InstitutionsController extends Controller
                 'item' => $item
                 ]);
         } elseif ($item == 4) {
-            $institutions = Institution::where('address', $availables)->where('lung_cancer', "○")->get();
+            $institutions = Institution::whereIn('address', $availables)->where('lung_cancer', "○")->get();
             return view('mypage.institutions', [
                 'institutions' => $institutions,
                 'item' => $item
                 ]);
         } elseif ($item == 5) {
-            $institutions = Institution::where('address', $availables)->where('gc_barium', "○")->orWhere('gc_endoscopy', 1)->get();
+            $institutions = Institution::whereIn('address', $availables)->where('gc_barium', "○")->orWhere('gc_endoscopy', 1)->get();
             return view('mypage.institutions', [
                 'institutions' => $institutions,
                 'item' => $item
